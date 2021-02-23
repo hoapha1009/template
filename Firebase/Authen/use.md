@@ -1,0 +1,1 @@
+-   Dùng google auth hay password nhớ bật ở auth.
