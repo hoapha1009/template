@@ -1,9 +1,6 @@
 // trong component sign in
 
-import {
-    auth,
-    createUserProfileDocument,
-} from "../Firestore/setup-firestore/setup-firestore";
+import { auth } from "../Firestore/setup-firestore/setup-firestore";
 
 // ở form submit: async
 try {
