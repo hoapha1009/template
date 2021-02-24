@@ -2,7 +2,7 @@ import { auth } from "../google-auth/firebase.ultils";
 import { createUserProfileDocument } from "../setup-firestore/setup-firestore";
 
 // use in componentDidMount or useEffect
-auth.onAuthStateChanged((userAuth) => {
+auth.onAuthStateChanged(async (userAuth) => {
     // lấy data users đã lưu từ fire store về app
     if(userAuth){
         // dùng hàm createUserProfileDocument đã tạo ở firebase.utils
